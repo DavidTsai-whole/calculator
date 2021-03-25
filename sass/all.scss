@@ -1,0 +1,53 @@
+@import "reset";
+@import "basic";
+
+.wrap {
+    width: 1280px;
+    height: 800px;
+    margin: auto;
+}
+
+.calculate {
+    width: 350px;
+    height: 525px;
+    margin: 30px auto;
+}
+
+.screen {
+    background-color: #041936;
+    border-radius: 20px 20px 0px 0px;
+    height: 109px;
+}
+
+.btn {
+    height: 416px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #062145;
+    padding: 16px 8px;
+    border-radius: 0px 0px 20px 20px;
+    li{
+        font-size:24px;
+        a:hover {
+            background: red;
+            
+        }
+    }
+}
+
+.nomal {
+    border-radius: 16px;
+    display: block;
+    padding: 18px 29px;
+    color: white;
+}
+.equal {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 100px;
+    padding-right: 29px;
+    display: block;
+    color:white;
+    border-radius: 16px;
+}
